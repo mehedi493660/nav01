@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: 100%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    background-color: rgb(246, 239, 230);
+    align-items: center;
+    font-size: 14px;
+    color: rgb(152, 153, 154);
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+}
+.time{
+    padding-left: 15px;
+}
+.add{
+    padding-left: 20px;
+}
+.logo{
+    padding-right: 20px;
+}
+.phn{
+    padding-right: 15px;
+}
+.fa-brands{
+    padding-right:8px;
+}
+.fa-solid{
+    padding-right: 5px;
+}
+/* main header */
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    background-color: rgb(228, 245, 220);
+}
+.menu{
+    display: flex;
+    align-items: center;
+    
+  
+}
+
+.nav ul li {
+    list-style: none;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    padding-right: 30px;
+    align-items: center;
+    color: rgb(10, 201, 26);
+}
+.monogram{
+    padding-left: 25px;
+    color: rgb(0, 135, 52);
+}
+
+div.btn{
+    background: rgb(144, 196, 100);
+    padding: 10px;
+    padding-left: 20px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn:hover{
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.fa-solid{
+    padding-left: 10px;
+    
+}
